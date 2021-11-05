@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './Components/header/header';
+import Footer from './Components/footer';
+import './assets/App.css'
+import './assets/fonts.css'
+import { Component } from 'react';
+import Main from './Components/main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends Component{
+  render(){
+    return (
+      <>
+      <Header />
+      <Main/>
+      <Footer/>
+      </>
+    );
+  }
+}  
 
 export default App;
+/*
+criar os subComponents da Main (introdução video integrantes )
+tornar o css global ou criar um para cada component
+
+brainstorm
+
+comentarios com formulario utilizando banco de dados online 
+
+
+material UI
+*/
