@@ -1,4 +1,4 @@
-import Header from './Components/header/header';
+import Header from './Components/header';
 import Footer from './Components/footer';
 import './assets/App.css'
 import './assets/fonts.css'
@@ -10,7 +10,8 @@ class App extends Component{
     return (
       <>
       <Header />
-      <Main/>
+      <Main
+      />
       <Footer/>
       </>
     );
@@ -18,14 +19,3 @@ class App extends Component{
 }  
 
 export default App;
-/*
-criar os subComponents da Main (introdução video integrantes )
-tornar o css global ou criar um para cada component
-
-brainstorm
-
-comentarios com formulario utilizando banco de dados online 
-
-
-material UI
-*/

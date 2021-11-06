@@ -9,19 +9,19 @@ class Header extends Component {
           <h1>Dev Stuy</h1>
           <ul>
             <li>
-              <a href="#">
+              <a>
                 Sobre
                 <div className="line-heading"></div>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a>
                 Membros
                 <div className="line-heading"></div>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a>
                 Contato
                 <div className="line-heading"></div>
               </a>
