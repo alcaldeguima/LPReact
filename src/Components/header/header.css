@@ -192,7 +192,7 @@ header a:hover > .line-heading {
 }
 
 .qualities {
-  margin: 140px 0;
+  margin: 51px 0;
   text-align: center;
 }
 
@@ -218,6 +218,17 @@ header a:hover > .line-heading {
   display: inline-block;
   width: 216px;
   margin-top: 90px;
+}
+.quality img {
+  width: 90px;
+  height: 90px;
+}
+.qualities .circle {
+  display: flex;
+  border: 4px solid var(--primary-color);
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
 }
 
 .circle {

@@ -1,4 +1,4 @@
-import Header from './Components/header/header';
+import Header from './Components/header';
 import Footer from './Components/footer';
 import './assets/App.css'
 import './assets/fonts.css'
