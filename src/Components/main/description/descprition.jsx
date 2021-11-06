@@ -44,13 +44,15 @@ class Description extends Component {
                 <h3>Criativo</h3>
               </div>
               <div className="quality">
-                <div className="circle"></div>
-                <img src={Calm} className="qualities-icon" />
+                <div className="circle">
+                  <img src={Calm} className="qualities-icon" />
+                </div>
                 <h3>Descontraído</h3>
               </div>
               <div className="quality">
-                <div className="circle"></div>
-                <img src={TeamWork} className="qualities-icon" />
+                <div className="circle">
+                  <img src={TeamWork} className="qualities-icon" />
+                </div>
                 <h3>Multidisciplinar</h3>
               </div>
             </div>

@@ -244,11 +244,13 @@ header a:hover > .line-heading {
   border-color: var(--secondary-color) !important;
 }
 
-.qualities .circle {
+.circle {
   display: flex;
-  border: 4px solid var(--primary-color);
-  align-items: center;
-  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .pic:hover {
   transition: 1s !important;
