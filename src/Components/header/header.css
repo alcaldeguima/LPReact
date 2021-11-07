@@ -77,9 +77,6 @@ header {
 header nav {
   padding: 7px 0;
 }
-nav img {
-  margin-top: 7px;
-}
 img {
   user-select: none;
 }
@@ -111,17 +108,12 @@ header li {
 }
 
 header a {
-  color: #b967ff;
+  color: var(--white);
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
+  user-select: none;
 }
-/*
-header a:hover{
-  border-bottom:  2px solid #B967FF;
-
-  border-radius: 0deg;
-}*/
 
 main {
   margin-top: 135px;
@@ -400,12 +392,15 @@ perfis de cada um dos integrantes
   width: 25px;
   height: 25px;
 }
+.contato {
+  height: 10px;
+}
 
 .contact {
   background-color: var(--primary-color);
   text-align: center;
   padding: 85px 0;
-  margin-bottom: 100px;
+  margin: 90px 0 100px 0;
 }
 
 .contact h2 {
@@ -433,12 +428,15 @@ perfis de cada um dos integrantes
   background-color: var(--btn-color);
   border: none;
   border-radius: 5px;
+
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 2px;
+
   cursor: pointer;
   transition: 0.5s;
 }
+
 .contact input[type="submit"]:hover {
   background-color: #7002d1;
 }
