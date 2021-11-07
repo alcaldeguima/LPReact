@@ -238,10 +238,14 @@ header a:hover > .line-heading {
   border-radius: 50%;
   margin: 0 auto;
   overflow: hidden;
+  transition: 5s;
 }
-.circle:hover {
-  transition: 1s;
+.qualities .circle:hover {
   border-color: var(--secondary-color) !important;
+}
+.qualities .circle:hover .qualities-icon {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .circle {
