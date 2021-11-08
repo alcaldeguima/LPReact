@@ -6,6 +6,15 @@ import mari from "./images/mariana.jpeg";
 import pedro from "./images/pedro.jpeg";
 import Personal from './Personal';
 class Members extends Component {
+    constructor (){
+        super();
+        this.integrantes= [
+            {scroll:"#scroll-jp", id:"joaopedro", src: alcalde, nome: "João Pedro" },
+            {scroll:"#scroll-lucas", id:"lucas", src: lucas, nome: "Lucas" },
+            {scroll:"#scroll-mari", id:"mari", src: mari, nome: "Mari" },
+            {scroll:"#scroll-pedro", id:"pedro", src: pedro, nome: "Pedro" }
+        ];
+    }
     render() { 
         return (
             <>
@@ -20,38 +29,18 @@ class Members extends Component {
                         </div>
 
                         <div class="members-photos">
-                            <a href="#scroll-jp">
-                                <div className="member" id="joaopedro">
-                                    <div className="circle">
-                                        <img src={alcalde} className="pic"/>
-                                    </div>
-                                    <h3>João Pedro</h3>
-                                </div>
-                            </a>
-                            <a href="#scroll-lucas">
-                                <div className="member" id="lucas">
-                                    <div className="circle">
-                                        <img src={lucas} className="pic"/>
-                                    </div>
-                                    <h3>Lucas</h3>
-                                </div>
-                            </a>
-                            <a href="#scroll-mari">
-                                <div className="member" id="mari">
-                                    <div className="circle">
-                                        <img src={mari} className="pic"/>
-                                    </div>
-                                    <h3>Mariana</h3>
-                                </div>
-                            </a>    
-                            <a href="#scroll-pedro">
-                                <div className="member" id="pedro">
-                                    <div className="circle">
-                                        <img src={pedro} className="pic" />
-                                    </div>
-                                    <h3>Pedro</h3>
-                                </div>
-                            </a>
+                            {this.integrantes.map((integrante, index) =>{
+                                return(
+                                    <a href={integrante.scroll}>
+                                        <div className="member" id={integrante.id}>
+                                            <div className="circle">
+                                                <img src={integrante.src} className="pic"/>
+                                            </div>
+                                            <h3>{integrante.nome}</h3>
+                                        </div>
+                                    </a> 
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
