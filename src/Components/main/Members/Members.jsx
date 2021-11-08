@@ -4,6 +4,7 @@ import alcalde from "./images/alcalde.jpeg";
 import lucas from "./images/lucas.jpeg";
 import mari from "./images/mariana.jpeg";
 import pedro from "./images/pedro.jpeg";
+import Personal from './Personal';
 class Members extends Component {
     render() { 
         return (
@@ -53,7 +54,8 @@ class Members extends Component {
                             </a>
                         </div>
                     </div>
-                </div>   
+                </div>
+                <Personal/>
             </>
         )
     }
