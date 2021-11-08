@@ -3,6 +3,7 @@ import "../header/header.css";
 import Intro from "./intro";
 import Description from "./description";
 import Form from "./form";
+import Members from "./Members"
 
 class Main extends Component {
   render() {
@@ -10,6 +11,7 @@ class Main extends Component {
       <main>
         <Intro />
         <Description />
+        <Members/>
         <Form />
       </main>
     );
