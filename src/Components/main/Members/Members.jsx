@@ -20,18 +20,18 @@ class Members extends Component {
             <>
                 <div id="membros"></div>
 
-                <div class="members">
-                    <div class="center">
+                <div className="members">
+                    <div className="center">
                         <h2>
                             Conheça os integrantes
                         </h2>
-                        <div class="line-heading">
+                        <div className="line-heading">
                         </div>
 
-                        <div class="members-photos">
+                        <div className="members-photos">
                             {this.integrantes.map((integrante, index) =>{
                                 return(
-                                    <a href={integrante.scroll}>
+                                    <a key={index} href={integrante.scroll}>
                                         <div className="member" id={integrante.id}>
                                             <div className="circle">
                                                 <img src={integrante.src} className="pic"/>
