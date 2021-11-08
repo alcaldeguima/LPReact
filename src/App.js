@@ -11,8 +11,7 @@ class App extends Component{
     return (
       <>
       <Header />
-      <Main
-      />
+      <Main/>
       <Footer/>
       </>
     );
