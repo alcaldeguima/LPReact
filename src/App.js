@@ -1,18 +1,18 @@
-import Header from './Components/header';
-import Footer from './Components/footer';
-import Main from './Components/main';
+import React, { Component } from 'react';
+import { Header, SquadInfo, Members, Form, Footer } from './Components';
 import './assets/App.css'
-import './assets/fonts.css'
-import { Component } from 'react';
-
 
 class App extends Component{
   render(){
     return (
       <>
-      <Header />
-      <Main/>
-      <Footer/>
+        <Header />
+        <main>
+          <SquadInfo />
+          <Members />
+          <Form />
+        </main>
+        <Footer/>
       </>
     );
   }

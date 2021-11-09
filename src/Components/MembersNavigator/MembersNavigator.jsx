@@ -1,21 +1,13 @@
-import { Component } from 'react';
-import "../../header/header.css";
-import alcalde from "./images/alcalde.jpeg";
-import lucas from "./images/lucas.jpeg";
-import mari from "./images/mariana.jpeg";
-import pedro from "./images/pedro.jpeg";
-import Personal from './Personal';
-class Members extends Component {
-    constructor (){
-        super();
-        this.integrantes= [
-            {nome: "João Pedro", scroll:"#scroll-jp", id:"joaopedro", src: alcalde},
-            {nome: "Lucas", scroll:"#scroll-lucas", id:"lucas", src: lucas},
-            {nome: "Mari", scroll:"#scroll-mari", id:"mari", src: mari},
-            {nome: "Pedro", scroll:"#scroll-pedro", id:"pedro", src: pedro}
-        ];
+import React, { Component } from 'react';
+import "./members-navigator.css"
+
+class MembersNavigator extends Component {
+    constructor(props) {
+        super(props)
+        this.integrantes = this.props.integrantes.integrantes
     }
-    render() { 
+
+    render() {
         return (
             <>
                 <div id="membros"></div>
@@ -44,10 +36,9 @@ class Members extends Component {
                         </div>
                     </div>
                 </div>
-                <Personal/>
             </>
         )
     }
 }
- 
-export default Members;
+
+export default MembersNavigator

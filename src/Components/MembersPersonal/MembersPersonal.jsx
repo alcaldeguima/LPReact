@@ -1,13 +1,14 @@
-import { Component} from 'react';
-import alcalde from "../images/alcalde.jpeg";
-import lucas from "../images/lucas.jpeg";
-import mariana from "../images/mariana.jpeg";
-import pedro from "../images/pedro.jpeg";
-import linkedin from "../images/linkedin.svg";
-import github from "../images/github.svg";
-import instagram from "../images/instagram.svg";
+import React, { Component } from 'react';
+import alcalde from "../../assets/images/alcalde.jpeg";
+import lucas from "../../assets/images/lucas.jpeg";
+import mariana from "../../assets/images/mariana.jpeg";
+import pedro from "../../assets/images/pedro.jpeg";
+import linkedin from "../../assets/images/linkedin.svg";
+import github from "../../assets/images/github.svg";
+import instagram from "../../assets/images/instagram.svg";
+import "./members-personal.css"
 
-class Personal extends Component {
+class MembersPersonal extends Component {
     render() { 
         return (
             <>
@@ -29,17 +30,17 @@ class Personal extends Component {
                                 <div className="social-media">
                                     <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-alcalde-guimar%C3%A3es-617523208/" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={linkedin} alt=""/>
+                                            <img src={linkedin} alt="LinkedIn Logo"/>
                                         </div>
                                     </a>
                                     <a href="https://github.com/alcaldeguima" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={github} alt=""/>
+                                            <img src={github} alt="GitHub Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={instagram} alt=""/>
+                                            <img src={instagram} alt="Instagram Logo"/>
                                         </div>
                                     </a>
                                 </div>
@@ -66,17 +67,17 @@ class Personal extends Component {
                                 <div className="social-media">
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={linkedin} alt=""/>
+                                            <img src={linkedin} alt="LinkedIn Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={github} alt=""/>
+                                            <img src={github} alt="GitHub Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={instagram} alt=""/>
+                                            <img src={instagram} alt="Instagram Logo"/>
                                         </div>
                                     </a>
                                 </div>
@@ -103,17 +104,17 @@ class Personal extends Component {
                                 <div className="social-media">
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={linkedin} alt=""/>
+                                            <img src={linkedin} alt="LinkedIn Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={github} alt=""/>
+                                            <img src={github} alt="GitHub Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={instagram} alt=""/>
+                                            <img src={instagram} alt="Instagram Logo"/>
                                         </div>
                                     </a>
                                 </div>
@@ -140,17 +141,17 @@ class Personal extends Component {
                                 <div className="social-media">
                                     <a href="https://www.linkedin.com/in/pzardin/" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={linkedin} alt=""/>
+                                            <img src={linkedin} alt="LinkedIn Logo"/>
                                         </div>
                                     </a>
                                     <a href="#" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={github} alt=""/>
+                                            <img src={github} alt="GitHub Logo"/>
                                         </div>
                                     </a>
                                     <a href="https://www.instagram.com/pzardin/?hl=pt-br" target="_blank">
                                         <div className="social-media-icon">
-                                            <img src={instagram} alt=""/>
+                                            <img src={instagram} alt="Instagram Logo"/>
                                         </div>
                                     </a>
                                 </div>
@@ -164,4 +165,4 @@ class Personal extends Component {
 
 }
  
-export default Personal;
+export default MembersPersonal;

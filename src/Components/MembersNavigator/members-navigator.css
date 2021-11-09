@@ -1,0 +1,55 @@
+#membros {
+    height: 89px;
+}
+
+.members {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 32px 0 50px 0;
+}
+  
+.members h2 {
+    color: var(--white);
+    line-height: 50px;
+}
+  
+.members .line-heading {
+    width: 278px;
+    background-color: var(--terciaty-color);
+}
+  
+.members-photos {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+  
+.member {
+    display: inline-block;
+    width: 182px;
+}
+  
+#joaopedro .circle {
+    background-color: var(--black);
+}
+  
+#lucas .circle {
+    background-color: var(--black);
+}
+  
+#mariaso .circle {
+    background-color: var(--black);
+}
+  
+#mari .circle {
+    background-color: var(--black);
+}
+  
+#pedro .circle {
+    background-color: var(--black);
+}
+  
+.member h3 {
+    margin-top: 24px;
+    color: var(--white);
+}

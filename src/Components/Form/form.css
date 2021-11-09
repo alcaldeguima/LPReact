@@ -1,0 +1,48 @@
+#contato {
+    height: 10px;
+}
+  
+.contact {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 85px 0;
+    margin: 90px 0 100px 0;
+}
+  
+.contact h2 {
+    color: var(--white);
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+  
+.contact input[type="text"],
+.contact input[type="email"] {
+    display: block;
+    width: 330px;
+    height: 55px;
+    padding: 0 20px;
+    margin: 0 auto 40px auto;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+  
+.contact input[type="submit"] {
+    width: 225px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 5px;
+  
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+    cursor: pointer;
+    transition: 0.5s;
+}
+  
+.contact input[type="submit"]:hover {
+    background-color: #7002d1;
+}
