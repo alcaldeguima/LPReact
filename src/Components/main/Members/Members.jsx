@@ -9,10 +9,10 @@ class Members extends Component {
     constructor (){
         super();
         this.integrantes= [
-            {scroll:"#scroll-jp", id:"joaopedro", src: alcalde, nome: "João Pedro" },
-            {scroll:"#scroll-lucas", id:"lucas", src: lucas, nome: "Lucas" },
-            {scroll:"#scroll-mari", id:"mari", src: mari, nome: "Mari" },
-            {scroll:"#scroll-pedro", id:"pedro", src: pedro, nome: "Pedro" }
+            {nome: "João Pedro", scroll:"#scroll-jp", id:"joaopedro", src: alcalde},
+            {nome: "Lucas", scroll:"#scroll-lucas", id:"lucas", src: lucas},
+            {nome: "Mari", scroll:"#scroll-mari", id:"mari", src: mari},
+            {nome: "Pedro", scroll:"#scroll-pedro", id:"pedro", src: pedro}
         ];
     }
     render() { 
