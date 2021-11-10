@@ -1,8 +1,8 @@
-import { Component } from "react";
-import "../../header/header.css";
-import Criativity from "../Images/ideia-criativa.svg";
-import Calm from "../Images/calma.svg";
-import TeamWork from "../Images/equipe-de-trabalho.svg";
+import React, { Component } from "react";
+import "./description.css";
+import Criativity from "../../assets/images/ideia-criativa.svg";
+import Calm from "../../assets/images/calma.svg";
+import TeamWork from "../../assets/images/equipe-de-trabalho.svg";
 
 class Description extends Component {
   render() {

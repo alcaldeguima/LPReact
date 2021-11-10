@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import "./header.css";
 
 class Header extends Component {
@@ -9,19 +9,19 @@ class Header extends Component {
           <h1>Dev Stuy</h1>
           <ul>
             <li>
-              <a>
+              <a href="#">
                 Sobre
                 <div className="line-heading"></div>
               </a>
             </li>
             <li>
-              <a>
+              <a href="#membros">
                 Membros
                 <div className="line-heading"></div>
               </a>
             </li>
             <li>
-              <a>
+              <a href="#contato">
                 Contato
                 <div className="line-heading"></div>
               </a>

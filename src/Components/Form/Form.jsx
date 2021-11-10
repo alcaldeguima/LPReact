@@ -1,11 +1,11 @@
-import { Component } from "react";
-import "../../header/header.css";
+import React, { Component } from "react";
+import "./form.css";
 
 class Form extends Component {
   render() {
     return (
       <>
-        <div className="contato"></div>
+        <div id="contato"></div>
         <div className="contact">
           <div className="center">
             <form>
@@ -25,4 +25,5 @@ class Form extends Component {
     );
   }
 }
+ 
 export default Form;

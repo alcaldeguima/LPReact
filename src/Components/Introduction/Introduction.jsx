@@ -1,5 +1,5 @@
-import { Component } from "react";
-import "../../header/header.css";
+import React, { Component } from "react";
+import "./introduction.css";
 
 class Intro extends Component {
   render() {
@@ -24,4 +24,5 @@ class Intro extends Component {
     );
   }
 }
+
 export default Intro;
