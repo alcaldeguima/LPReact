@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@font-face {
+  font-family: "Sticky Pops";
+  src: url(./fonts/Sticky\ Pops.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --primary-color: #b967ff;
+  --secondary-color: #ff71ce;
+  --terciaty-color: #fffb96;
+  --black: #272727;
+  --white: #ffffff;
+  --grey: #e4e4e4;
+  --btn-color: #8800fc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--black);
+  font-size: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: var(--black);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--black);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+p {
+  color: var(--black);
+  font-size: 18px;
+  cursor: default;
+  user-select: none;
+}
+
+img {
+  user-select: none;
+}
+
+.center {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.two-columns {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.line-heading {
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: 5s;
+}
+
+main {
+  margin-top: 135px;
+}
+
+.pic:hover {
+  transition: 1s !important;
+  transform: scale(1.15) !important;
+  filter: saturate(1.1) !important;
 }

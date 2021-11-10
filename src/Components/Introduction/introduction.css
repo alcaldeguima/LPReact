@@ -1,0 +1,18 @@
+.introduction {
+    margin-top: 120px;
+    margin: 50px 0 75px 0;
+    text-align: center;
+}
+  
+.introduction strong {
+    display: block;
+    font-size: 50px;
+}
+  
+.introduction .line-heading {
+    width: 250px;
+}
+  
+.introduction p {
+    margin-top: 50px;
+}
