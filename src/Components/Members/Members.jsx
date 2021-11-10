@@ -12,7 +12,7 @@ class Members extends Component {
         return (
             <>
                 <MembersNavigator integrantes={this.integrantes}/>
-                <MembersPersonal/>
+                <MembersPersonal integrantes={this.integrantes}/>
             </>
         )
     }
