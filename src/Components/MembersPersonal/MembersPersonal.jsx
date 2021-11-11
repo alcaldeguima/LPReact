@@ -27,7 +27,7 @@ class MembersPersonal extends Component {
                                     </div>
                                     <div className="member-information">
                                         <h2>{integrante.nome}</h2>
-                                        <div className="line-heading" id={integrante.id}>
+                                        <div className="line-heading" id={integrante.line}>
                                         </div>
                                         <p>{integrante.text}</p>
                                         <div className="social-media">
