@@ -5,16 +5,16 @@ import instagram from "../../assets/images/instagram.svg";
 import "./members-personal.css"
 
 class MembersPersonal extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.integrantes = this.props.integrantes.integrantes;
     }
     render() { 
         return (
             <>
-            {this.integrantes.map (integrante => {
+            {this.integrantes.map ((integrante, index) => {
                 return(
-                    <section>
+                    <section key={index}>
                         <div id={integrante.scroll} className="scroll-to-member"></div>
                     
                         <div className={integrante.background}>
