@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TextField from '@material-ui/core/TextField';
 import Button from "@material-ui/core/Button"
-import { makeStyles, styled } from "@material-ui/styles"
+import { makeStyles } from "@material-ui/styles"
 import "./form.css";
 
 const useStyles = makeStyles ({
@@ -15,10 +15,6 @@ const useStyles = makeStyles ({
       }
     },
   },
-})
-
-const MyButton = styled(Button)({
-  backgroundColor: '#b967ff'
 })
 
 const Form = (props) => {
@@ -40,27 +36,6 @@ const Form = (props) => {
         <div className="center">
           <form onSubmit={_publicarComentario}>
             <h2>Comentários</h2>
-            {/* <input
-              type="text"
-              name="nome"
-              id="nome"
-              placeholder="Nome Completo"
-              
-            />
-            <input 
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              
-            />
-            <input 
-              type="text"
-              name="comentario"
-              id="comentario"
-              placeholder="Escreva seu comentário"
-              onChange={(event) => setComentario(event.target.value)}
-            /> */}
             <TextField
               id="outlined-basic"
               placeholder="Nome Completo"
@@ -88,8 +63,8 @@ const Form = (props) => {
               InputProps={{ className: classes.input }}
               onChange={(event) => setComentario(event.target.value)}
             />
-            {/* <input type="submit" value="Enviar"/> */}
-            <MyButton variant="contained">Enviar</MyButton>
+            <input type="submit" value="Enviar"/>
+            {/* <MyButton variant="contained">Enviar</MyButton> */}
           </form>
         </div>
       </div>
