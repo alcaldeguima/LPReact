@@ -31,12 +31,12 @@ class MembersPersonal extends Component {
                                         </div>
                                         <p>{integrante.text}</p>
                                         <div className="social-media">
-                                            <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-alcalde-guimar%C3%A3es-617523208/" target="_blank">
+                                            <a href={integrante.linkedin} target="_blank">
                                                 <div className="social-media-icon">
                                                     <img src={linkedin} alt="LinkedIn Logo"/>
                                                 </div>
                                             </a>
-                                            <a href="https://github.com/alcaldeguima" target="_blank">
+                                            <a href={integrante.github} target="_blank">
                                                 <div className="social-media-icon">
                                                     <img src={github} alt="GitHub Logo"/>
                                                 </div>
