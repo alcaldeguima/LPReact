@@ -1,0 +1,91 @@
+@media screen and (max-width: 1150px){
+    /* Geral */
+    .center {
+        width: 90%;
+    }
+
+    /* Descricao */
+    .description .two-columns {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .two-columns p {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* Pessoal */
+    .personal .two-columns {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .member-information h2 {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    /* Membros */
+    .members-photos {
+        flex-wrap: wrap;
+    }
+
+    .members-photos a {
+        width: 50%;
+    }
+
+    .members-photos .member:not(#joaopedro, #lucas) {
+        margin-top: 50px;
+    }
+
+    /* Qualidades */
+    .qualities .line-heading {
+        width: 275px;
+    }
+
+    .qualities-items {
+        width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    /* Header */
+    header .two-columns{
+        justify-content: center;
+    }
+
+    header ul {
+        display: none;
+    }
+    /* Member photo */
+    .personal .circle {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* Membros */
+    .members-photos a {
+        width: 100%;
+    }
+
+    .members-photos .member:not(#joaopedro) {
+        margin-top: 50px;
+    }
+
+    /* Form */
+    .contact input[type="text"], .contact input[type="email"] {
+        width: 90%;
+    }
+}

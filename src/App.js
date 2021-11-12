@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
-import { Header, SquadInfo, Members, Form, Footer } from './Components';
+import { Header, SquadInfo, Members, Comentarios, Form, Footer } from './Components';
+import Comments from './data/Comentarios';
 import './assets/App.css'
+import './assets/responsive.css'
 
-class App extends Component{
+class App extends Component {
+  constructor() {
+    super()
+    this.comentarios = new Comments()
+  }
   render(){
     return (
       <>
@@ -10,7 +16,8 @@ class App extends Component{
         <main>
           <SquadInfo />
           <Members />
-          <Form />
+          <Form comentarios={this.comentarios} />
+          <Comentarios comentarios={this.comentarios} />
         </main>
         <Footer/>
       </>

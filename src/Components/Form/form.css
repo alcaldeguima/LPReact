@@ -3,15 +3,15 @@
 }
   
 .contact {
-    background-color: var(--primary-color);
+    /* background-color: var(--white); */
     text-align: center;
     padding: 85px 0;
     margin: 90px 0 100px 0;
 }
   
 .contact h2 {
-    color: var(--white);
-    margin-bottom: 70px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
     font-weight: bold;
 }
   
@@ -45,4 +45,9 @@
   
 .contact input[type="submit"]:hover {
     background-color: #7002d1;
+}
+
+.contact form {
+    width: 330px;
+    margin: 0 auto;
 }

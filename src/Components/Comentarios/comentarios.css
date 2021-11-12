@@ -1,0 +1,16 @@
+div.secao-comentarios {
+    margin-bottom: 100px;
+}
+
+.comentario {
+    margin: 24px 0px;
+    padding: 0 16px;
+}
+
+.comentario_nome {
+    margin-bottom: 8px;
+}
+
+.comentario_email {
+    margin-bottom: 8px;
+}

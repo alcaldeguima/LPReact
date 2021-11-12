@@ -1,7 +1,8 @@
-import Header from './header'
+import Header from './Header'
 import SquadInfo from './SquadInfo'
 import Members from './Members'
 import Form from './Form'
-import Footer from './footer'
+import Comentarios from './Comentarios'
+import Footer from './Footer'
 
-export { Header, SquadInfo, Members, Form, Footer }
+export { Header, SquadInfo, Members, Form, Comentarios, Footer }
