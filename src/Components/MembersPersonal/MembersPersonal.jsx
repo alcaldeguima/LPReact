@@ -15,7 +15,7 @@ class MembersPersonal extends Component {
             {this.integrantes.map ((integrante, index) => {
                 return(
                     <section key={index}>
-                        <div id={integrante.scroll} className="scroll-to-member"></div>
+                        <div id={integrante.scrollToMember} className="scroll-to-member"></div>
                     
                         <div className={integrante.background}>
                             <div className="center">
