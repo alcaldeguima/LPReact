@@ -31,17 +31,17 @@ class MembersPersonal extends Component {
                                         
                                         <p>{integrante.text}</p>
                                         <div className="social-media">
-                                            <a href={integrante.linkedin} target="_blank">
+                                            <a href={integrante.linkedin} target="_blank" rel="noreferrer">
                                                 <div className="social-media-icon">
                                                     <img src={linkedin} alt="LinkedIn Logo"/>
                                                 </div>
                                             </a>
-                                            <a href={integrante.github} target="_blank">
+                                            <a href={integrante.github} target="_blank" rel="noreferrer">
                                                 <div className="social-media-icon">
                                                     <img src={github} alt="GitHub Logo"/>
                                                 </div>
                                             </a>
-                                            <a href={integrante.meetup} target="_blank">
+                                            <a href={integrante.meetup} target="_blank" rel="noreferrer">
                                                 <div className="social-media-icon">
                                                     <img src={youtube} 
                                                     alt="Youtube Logo"/>
