@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import linkedin from "../../assets/images/linkedin.svg";
 import github from "../../assets/images/github.svg";
-import instagram from "../../assets/images/instagram.svg";
+import youtube from "../../assets/images/youtube.svg";
 import "./members-personal.css"
 
 class MembersPersonal extends Component {
@@ -27,8 +27,8 @@ class MembersPersonal extends Component {
                                     </div>
                                     <div className="member-information">
                                         <h2>{integrante.nome}</h2>
-                                        <div className="line-heading" id={integrante.line}>
-                                        </div>
+                                        <div className="line-heading" id={integrante.line}></div>
+                                        
                                         <p>{integrante.text}</p>
                                         <div className="social-media">
                                             <a href={integrante.linkedin} target="_blank">
@@ -41,9 +41,10 @@ class MembersPersonal extends Component {
                                                     <img src={github} alt="GitHub Logo"/>
                                                 </div>
                                             </a>
-                                            <a href="#" target="_blank">
+                                            <a href={integrante.meetup} target="_blank">
                                                 <div className="social-media-icon">
-                                                    <img src={instagram} alt="Instagram Logo"/>
+                                                    <img src={youtube} 
+                                                    alt="Youtube Logo"/>
                                                 </div>
                                             </a>
                                         </div>
